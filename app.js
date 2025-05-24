@@ -17,7 +17,7 @@ function showTasks() {
     li.textContent = task;
 
     const doneBtn = document.createElement("button");
-    doneBtn.textContent = "✅";
+    doneBtn.textContent = "over";
     doneBtn.onclick = () => {
       doneTasks.push(task);
       pendingTasks.splice(index, 1);
@@ -33,7 +33,7 @@ function showTasks() {
     li.textContent = task;
 
     const deleteBtn = document.createElement("button");
-    deleteBtn.textContent = "🗑️";
+    deleteBtn.textContent = "remove";
     deleteBtn.onclick = () => {
       doneTasks.splice(index, 1);
       showTasks();
