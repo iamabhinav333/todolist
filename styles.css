@@ -1,83 +1,11 @@
 body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.container{
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    border-radius: 5%;
-    width: 100%;
-    max-width: 700px;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 5px rgb(2, 2, 3);
-}
-section{
-    display: flex;
     flex-direction: column;
     align-items: center;
-}
-h2{
-    text-align: center;;
-}
-.input{
-    display: flex;
-    justify-content:space-around;
-    width: 100%;
-}
-.input input[type="text"]{
-    background-color: #f1f1f1;
-    color: #333;
-    font-size: 16px;
-    border: none;
-    border-radius: 5%;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-    width: 75%;
-    text-align: center;
-    padding: 7px;
-    height: 30px;
-}
-.input button{
-    background-color: #04AA6D;
-    border: none;
-    color: white;
-    text-align: center;
-    padding: 7px;
-    border-radius: 5%;
-    width: 15%;
-}
-.input button:hover{
-    cursor: pointer;
-}
-.lists{
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.lists li{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    align-items: center;
-    width: 100%;
-}
-.lists li button{
-    background-color: #f44336;
-    border: none;
-    color: white;
-    text-align: center;
-    padding: 5px 10px;
-    border-radius: 5%;
-}
-.work{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
 }
